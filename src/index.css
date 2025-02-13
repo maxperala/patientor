@@ -55,6 +55,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#nameBtn {
+  transition: all;
+}
+
+#nameBtn:hover {
+  color: blue;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
